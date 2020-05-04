@@ -22,6 +22,6 @@ docker run \
 	/src/docker/compile.sh
 docker rmi "${docker_tag}"
 
-cat 'src/main.sh' | grep -v '^# ' | grep -v '^$' > "${build}/main"
+cat 'src/main.sh' | grep -v '^# ' | grep -v '^$' > "${build}/main.sh"
 
-chmod +x "${build}/main"*
+chmod +x "${build}/main."*
