@@ -5,7 +5,7 @@ Projector launcher for Linux
 
 # Overview
 
-A simple script that can be used to wrap a projector and other resources with a single executable and directory.
+A simple script and binaries that can be used to wrap a projector and other resources with a single executable and directory.
 
 ```
 Application  <- Launcher (same name as projector)
@@ -19,8 +19,8 @@ Compatible with most Linux desktop systems.
 
 # Building
 
-1.  Use a system with both `bash` and `grep`.
-2.  Run `./build.sh` to build the script.
+1.  Use a system with Docker, `bash`, and `grep`.
+2.  Run `./build.sh` to build the script and binaries.
 
 
 # Bugs
